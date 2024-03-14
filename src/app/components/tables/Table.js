@@ -72,9 +72,9 @@ const Table = ({ path }) => {
             <tbody className="bg-white divide-y divide-gray-200 text-black">
               {/* Example table rows */}
 
-              {expense.map((data) => {
+              {expense.map((data, index) => {
                 return (
-                  <tr>
+                  <tr key = {index }>
                     <td className="px-2 md:px-6 py-4 whitespace-nowrap">
                       {data.amount}
                     </td>
@@ -98,9 +98,9 @@ const Table = ({ path }) => {
         </table>
       </div>
       <div>
-        {expense.map((data) => {
+        {expense.map((data,index) => {
           return (
-            <div className="text-black bg-white my-2 text-sm p-3 rounded-lg">
+            <div key = {index } className="text-black bg-white my-2 text-sm p-3 rounded-lg">
               <div className="flex justify-end mr-2">
                 <label>{data.date.split("T")[0]}</label>
               </div>
