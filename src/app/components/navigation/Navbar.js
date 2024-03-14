@@ -20,10 +20,12 @@ function Navbar() {
       const response = await axios.get(
         `${process.env.DOMAIN}/api/users/logout`
       );
+      console.log("success")
       router.push("/login");
       setIsLoader(false);
     } catch (error) {
       console.log(error);
+      console.log("error")
       setIsLoader(false);
     }
   };
