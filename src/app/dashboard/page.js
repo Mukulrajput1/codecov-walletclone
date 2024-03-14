@@ -5,7 +5,7 @@ import { useContexter } from "@/app/dashboard/contexter";
 import Link from "next/link";
 import Loader from "../components/navigation/Loader";
 
-function page() {
+function Dashboard() {
   const {setIsNavbar} = useContexter()
   const { username } = useContexter();
   const { setWalletAmount,setIsActive} = useContexter();
@@ -75,4 +75,4 @@ function page() {
   );
 }
 
-export default page;
+export default Dashboard;

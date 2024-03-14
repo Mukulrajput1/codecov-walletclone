@@ -4,7 +4,7 @@ import AddExpense from "@/app/components/forms/AddExpense";
 import Table from "@/app/components/tables/Table";
 import { useContexter } from "../contexter";
 
-function page() {
+function Expenses() {
   const { setIsNavbar,setIsActive } = useContexter();
   setIsActive(1)
   useEffect(() => {
@@ -29,4 +29,4 @@ function page() {
   );
 }
 
-export default page;
+export default Expenses;

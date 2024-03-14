@@ -4,7 +4,7 @@ import axios from "axios";
 import Link from "next/link";
 import Loader from "../components/navigation/Loader";
 
-function page() {
+function ForgotPassword() {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
   const [loader,setLoader] = useState(false)
@@ -58,4 +58,4 @@ function page() {
   );
 }
 
-export default page;
+export default ForgotPassword;

@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Loader from "../components/navigation/Loader";
 
-function page() {
+function ResetPassword() {
   const [token, setToken] = useState("");
   const [verified, setVerified] = useState(false);
   const [error, setError] = useState(false);
@@ -114,4 +114,4 @@ function page() {
   );
 }
 
-export default page;
+export default ResetPassword;

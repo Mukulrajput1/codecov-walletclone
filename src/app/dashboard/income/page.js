@@ -5,7 +5,7 @@ import Table from "@/app/components/tables/Table";
 import { useContexter } from "../contexter";
 
 
-function page() {
+function Income() {
   const {setIsNavbar,setIsActive} = useContexter()
   useEffect(() => {
     setIsNavbar(false)
@@ -31,4 +31,4 @@ function page() {
   );
 }
 
-export default page;
+export default Income;

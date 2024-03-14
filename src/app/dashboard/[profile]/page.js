@@ -5,7 +5,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useContexter } from "../contexter";
 
-function page() {
+function Profile() {
   const { username, mobile, password } = useContexter();
   return (
     <div className="flex justify-center items-center h-[calc(100vh-4rem)] px-5 py-10">
@@ -53,4 +53,4 @@ function page() {
   );
 }
 
-export default page;
+export default Profile;
