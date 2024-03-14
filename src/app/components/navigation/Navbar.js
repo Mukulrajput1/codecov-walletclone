@@ -21,7 +21,7 @@ function Navbar() {
         `${process.env.DOMAIN}/api/users/logout`
       );
       console.log("success")
-      router.push("/login");
+      router.push("/");
       setIsLoader(false);
     } catch (error) {
       console.log(error);
