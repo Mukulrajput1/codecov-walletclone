@@ -5,7 +5,6 @@ import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Home() {
-  console.log(`${process.env.DOMAIN}/api/users/logout`)
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="z-10 w-full items-center justify-center min-h-screen flex flex-col">

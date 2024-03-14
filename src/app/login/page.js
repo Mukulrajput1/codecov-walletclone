@@ -21,14 +21,7 @@ function LoginForm() {
     setPassword(event.target.value);
   };
 
-  // const forgotPassword =async () =>{
-  //   try {
-  //     const response = await axios.post("")
-  //   } catch (error) {
-  //     console.log(error.response.data)
-  //     setError(error.response.data.error)
-  //   }
-  // }
+
   const handleSubmit =async (event) => {
     setIsLoader(true)
     event.preventDefault();
