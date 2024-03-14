@@ -20,6 +20,7 @@ export async function POST(request){
         }
         console.log(user)
         await sendEmail({email, emailType: 'FORGOT', userId: user._id})
+        console.log("this msg is after send msg")
         return NextResponse.json({message: "Link send Successfully", success:true})
 
     } catch (error) {
