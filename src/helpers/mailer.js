@@ -24,7 +24,7 @@ export const sendEmail = async ({email,emailType, userId})=>{
           }
         });
           const mailOptions = {
-            from: process.env.MAIL_USER,
+            from: "support@mukultech.online",
             to : email,
             subject: emailType==='VERIFY'?"Verify Your Account": "Reset Your Password",
             html: `<p>Click <a href = ${process.env.DOMAIN}/${emailType==='VERIFY'?"verifyemail":"resetpassword"}?token=${hashedToken}>Here</a> to ${emailType === 'VERIFY' ? "Verify Your Email" : "Reset Your Password"} or copy the url given below. <br> ${process.env.DOMAIN}/${emailType==='VERIFY'?"verifyemail":"resetpassword"}?token=${hashedToken} </p>`
