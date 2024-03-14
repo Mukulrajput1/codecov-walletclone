@@ -70,12 +70,12 @@ function Navbar() {
         <div className="text-gray-800 md:w-1/2 xl:-1/3 flex justify-end space-x-3">
           <div className="font-bold hover:bg-gray-700 px-4 py-2 rounded-md hover:text-white"><Link href={`/dashboard/${username}`}>Hi, {username?.split('@')[0]}</Link></div>
           <div className="hidden md:flex items-center">-</div>
-          <div
+          <button
             onClick={logout}
             className="hidden md:flex hover:text-black hover:font-bold cursor-pointer items-center"
           >
             Logout
-          </div>
+          </button>
         </div>
         <div className="absolute right-5 md:hidden flex justify-end text-black text-lg">
           <FontAwesomeIcon
