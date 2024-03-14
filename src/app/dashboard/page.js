@@ -12,7 +12,7 @@ function Dashboard() {
   const [amount, setAmount] = useState();
   const { isFirstUpdated,setIsFirstUpdated } = useContexter();
   const {isLoader,setIsLoader} = useContexter(false);
-  // setIsActive(0)
+  setIsActive(0)
 
   useEffect(() => {
     setIsNavbar(false)
