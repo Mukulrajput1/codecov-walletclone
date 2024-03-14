@@ -32,7 +32,7 @@ function ForgotPassword() {
      {loader &&  <Loader></Loader>}
       <div className="px-5 py-5 bg-white rounded-lg shadow-md shadow-white">
       {isSuccess?<div className="text-gray-800 flex flex-col items-center text-sm font-bold"><p>Password reset link has been sent to your registered email.</p><Link href='/login' className="mt-5 px-5 py-3 border-[2px] border-gray-800 hover:bg-gray-800 hover:text-white ">Go To Login</Link></div>:<form className="text-sm  space-y-4" onSubmit={handleSubmit}>
-        <div className="text-gray-500 w-72 text-center"><p>Enter the email address associated with your account and we'll send you a link to reser your Password.</p></div>
+        <div className="text-gray-500 w-72 text-center"><p>Enter the email address associated with your account and we will send you a link to reser your Password.</p></div>
         <div>
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">Email : </label>
           <input
@@ -51,7 +51,7 @@ function ForgotPassword() {
         <div>
           <button disabled={loader?true:false} className="bg-blue-500 w-full hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">{loader?"Continue...":"Continue"}</button>
         </div>
-      <div className=" my-5 text-sm">Don't have an Account? <Link className="text-blue-500 hover:text-blue-700" href='/signup'>SignUp</Link></div>
+      <div className=" my-5 text-sm">Do not have an Account? <Link className="text-blue-500 hover:text-blue-700" href='/signup'>SignUp</Link></div>
       </form>}
     </div>
     </div>

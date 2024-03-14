@@ -96,7 +96,7 @@ function LoginForm() {
         </button>
       </div>
       <div>
-        <div className="text-gray-800 text-sm mt-3">Don't have account, <Link href='/signup' className="text-blue-500">SignUp</Link> here</div>
+        <div className="text-gray-800 text-sm mt-3">Don&apos;t have account, <Link href='/signup' className="text-blue-500">SignUp</Link> here</div>
       </div>
     </form>
     </div>
