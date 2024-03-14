@@ -9,7 +9,7 @@ export async function GET(){
             success: true
         })
         console.log("before token reset")
-        response.cookies.set("token",'',{httpOnly: true , expires: new Date(0)})
+        response.cookies.set("token",'',{httpOnly: true ,secure:true, expires: new Date(0)})
         console.log("after token reset")
         return response
     } catch (error) {
