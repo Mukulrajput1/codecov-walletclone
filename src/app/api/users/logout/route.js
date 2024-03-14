@@ -8,7 +8,7 @@ export async function GET(){
             message : "Logout Successfull",
             success: true
         })
-        response.cookies.set("token",'',{httpOnly: true , expires: new Date(0)})
+        response.cookies.set("token",'',{httpOnly: true , expires: new Date(0),path: '/'})
         return response
     } catch (error) {
         return NextResponse.json({
