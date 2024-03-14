@@ -97,7 +97,7 @@ const Table = ({ path }) => {
           )}
         </table>
       </div>
-      <div>
+      <div className="md:hidden">
         {expense.map((data,index) => {
           return (
             <div key = {index } className="text-black bg-white my-2 text-sm p-3 rounded-lg">
