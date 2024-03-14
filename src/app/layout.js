@@ -15,3 +15,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+/* HTML: <div class="loader"></div> */

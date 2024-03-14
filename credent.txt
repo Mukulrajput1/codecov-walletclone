@@ -1,0 +1,20 @@
+v=spf1 redirect=_spf.mailhostbox.com
+
+
+// var transport = nodemailer.createTransport({
+        //     host: "sandbox.smtp.mailtrap.io",
+        //     port: 2525,
+        //     auth: {
+        //       user: process.env.MAIL_USER,
+        //       pass: process.env.MAIL_PASS
+        //     }
+        //   });
+        // var transport = nodemailer.createTransport({
+        //   host: "live.smtp.mailtrap.io",
+        //   port: 587,
+        //   auth: {
+        //     user: "api",
+        //     pass: "6dc2b91404332e33127a2e4e5b0861c7"
+            
+        //   }
+        // });
