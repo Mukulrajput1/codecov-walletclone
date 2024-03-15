@@ -52,7 +52,7 @@ function SignupPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      {isSuccess && <div className="text-gray-800 text-center flex px-10 rounded-md space-y-8 bg-white py-5 flex-col items-center text-md font-bold"><p>Verification link has been successfully sent to your registered Email Address<br/> Please Verify to complete SignUp.</p><Link href='/login' className="mt-5 px-5 py-3 border-[2px] border-gray-800 hover:bg-gray-800 hover:text-white ">Go To Login</Link></div>}
+      {isSuccess && <div className="text-gray-800 text-center flex px-10 rounded-md space-y-8 bg-white py-5 flex-col items-center text-md font-bold"><p>Verification link has been successfully sent to your registered Email Address(Check Spam Also)<br/> Please Verify to complete SignUp.</p><Link href='/login' className="mt-5 px-5 py-3 border-[2px] border-gray-800 hover:bg-gray-800 hover:text-white ">Go To Login</Link></div>}
       {!isSuccess && <div className=" px-5 rounded-md space-y-8 bg-white pb-10">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign up</h2>

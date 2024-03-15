@@ -33,7 +33,7 @@ function ForgotPassword() {
     <div className="flex justify-center items-center w-full min-h-screen text-black flex-col">
      {loader &&  <Loader></Loader>}
       <div className="px-5 py-5 bg-white rounded-lg shadow-md shadow-white">
-      {isSuccess?<div className="text-gray-800 flex flex-col items-center text-sm font-bold"><p>Password reset link has been sent to your registered email.</p><Link href='/login' className="mt-5 px-5 py-3 border-[2px] border-gray-800 hover:bg-gray-800 hover:text-white ">Go To Login</Link></div>:<form className="text-sm  space-y-4" onSubmit={handleSubmit}>
+      {isSuccess?<div className="text-gray-800 flex flex-col items-center text-sm font-bold text-center"><p>Password reset link has been sent to your registered email.<br></br>If not found check spam also</p><Link href='/login' className="mt-5 px-5 py-3 border-[2px] border-gray-800 hover:bg-gray-800 hover:text-white ">Go To Login</Link></div>:<form className="text-sm  space-y-4" onSubmit={handleSubmit}>
         <div className="text-gray-500 w-72 text-center"><p>Enter the email address associated with your account and we will send you a link to reser your Password.</p></div>
         <div>
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">Email : </label>
