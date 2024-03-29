@@ -40,6 +40,7 @@ function SignupPage() {
         }
         const response = await axios.post('/api/users/signup',data);
         // router.push('/login')
+        console.log(response)
         setIsSuccess(true)
         
     } catch (error) {
