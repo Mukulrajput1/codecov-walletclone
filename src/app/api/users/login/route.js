@@ -29,7 +29,7 @@ export async function POST(request){
             mobile: user.mobile
         }
         const token = jwt.sign(tokenData,process.env.TOKEN_SECRET,{expiresIn:"1d" })
-        const response = new NextResponse({
+        const response = new NextResponse.json({
             message: "Login Successfull",
             success: true
         })
