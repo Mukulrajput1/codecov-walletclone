@@ -2,32 +2,32 @@ import React from 'react';
 import Head from 'next/head';
 
 export const metadata = {
-    title: "The Baby Show Jul 29 2024",
-    description: "Lean boil pivot future-proof but engagement users giant ballpark new...",
-    keywords: ["baby show", "events", "2024"],
+    // title: "The Show Jul 29 2024",
+    // description: "Lean boil pivot future-proof but engagement users giant ballpark new...",
+    // keywords: ["baby show", "events", "2024"],
     author: "Event Organizer",
     robots: "index, follow",
     canonical: "https://www.example.com/the-baby-show-jul-29-2024",
-    // openGraph: {
-    //     title: "The Baby Show Jul 29 2024",
-    //     description: "Lean boil pivot future-proof but engagement users giant ballpark new...",
-    //     url: "https://walletclone.in.net/event",
-    //     images: [
-    //         {
-    //             url: "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
-    //             width: 800,
-    //             height: 600,
-    //             alt: "The Baby Show",
-    //         },
-    //     ],
-    // },
-    twitter: {
-        card: "summary_large_image",
-        site: "@example",
+    openGraph: {
         title: "The Baby Show Jul 29 2024",
         description: "Lean boil pivot future-proof but engagement users giant ballpark new...",
-        image: "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
+        url: "https://walletclone.in.net/event",
+        images: [
+            {
+                url: "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
+                width: 800,
+                height: 600,
+                alt: "The Baby Show",
+            },
+        ],
     },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     site: "@example",
+    //     title: "The Baby Show Jul 29 2024",
+    //     description: "Lean boil pivot future-proof but engagement users giant ballpark new...",
+    //     image: "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
+    // },
 };
 
 const EventPage = () => {
