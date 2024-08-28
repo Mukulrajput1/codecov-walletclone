@@ -1,7 +1,13 @@
 import React from 'react';
 import Head from 'next/head';
 
+export const metadata = {
+    title: "The Baby Show Jul 29 2024",
+    description: "Lean boil pivot future-proof but engagement users giant ballpark new...",
+  };
+  
 const EventPage = () => {
+
   return (
     <div>
       <Head>
@@ -17,10 +23,6 @@ const EventPage = () => {
         <meta name="twitter:description" content="Lean boil pivot future-proof but engagement users giant ballpark new..." />
         <meta name="twitter:image" content="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg" />
       </Head>
-
-      {/* Your event page content */}
-      <h1>The Baby Show</h1>
-      <p>Join us on Jul 29, 2024, for an exciting event...</p>
     </div>
   );
 };
