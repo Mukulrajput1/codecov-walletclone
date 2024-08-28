@@ -9,7 +9,7 @@ const EventPage = () => {
         <meta property="og:title" content="The Baby Show Jul 29 2024" />
         <meta property="og:description" content="Lean boil pivot future-proof but engagement users giant ballpark new..." />
         <meta property="og:image" content="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg" />
-        <meta property="og:url" content="https://http://localhost:3000/event" />
+        <meta property="og:url" content="https://walletclone.in.net/event" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
