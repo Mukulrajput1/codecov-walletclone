@@ -1,21 +1,11 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
+    "applinks": {
+      "apps": [],
+      "details": [
       {
-        "appIDs": [
-          "C248P2BQTL.com.parksapp.apps",
-          "C248P2BQTL.com.myproject.parksapps"
-        ],
-        "components": [
-          {
-            "/": "*"
-          },
-          {
-            "/": "/*"
-          }
-        ]
+        "appID": "C248P2BQTL.com.perk.deeplink",
+        "paths": ["*"]
       }
-    ]
-  }
+      ]
+    }
 }
