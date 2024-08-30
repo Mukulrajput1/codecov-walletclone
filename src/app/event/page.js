@@ -7,7 +7,7 @@ export async function metadata({ searchParams }) {
       description = "Lean boil pivot future-proof but engagement users giant ballpark new...",
       imageUrl = "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     } = searchParams || {};
-  
+    
     return {
       title,
       description,
@@ -38,15 +38,15 @@ export async function metadata({ searchParams }) {
     };
   }
   
-const EventPage = ({searchParams}) => {
-    const {
-        title = "The Baby Show Jul 29 2024",
-        description = "Lean boil pivot future-proof but engagement users giant ballpark new...",
-        imageUrl = "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
-      } = searchParams || {};
+const EventPage = () => {
+    // const {
+    //     title = "The Baby Show Jul 29 2024",
+    //     description = "Lean boil pivot future-proof but engagement users giant ballpark new...",
+    //     imageUrl = "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
+    //   } = searchParams || {};
     return (
         <div>
-           {title} {description} {imageUrl}
+           abc
         </div>
     );
 };
