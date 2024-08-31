@@ -27,12 +27,12 @@ export async function generateMetadata({ searchParams }) {
           },
         ],
       },
-      // twitter: {
-      //   card: "summary_large_image",
-      //   title,
-      //   description,
-      //   images: [imageUrl],
-      // },
+      twitter: {
+        card: "summary_large_image",
+        title,
+        description,
+        images: [imageUrl],
+      },
     };
 }
 
