@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
     {
-      "appID": "C248P2BQTL.com.perk.deeplinks",
+      "appIDs": ["C248P2BQTL.com.perk.deeplinks","C248P2BQTL.com.perk.deeplinks.Clip"],
       "paths": ["*"]
     }
     ]
