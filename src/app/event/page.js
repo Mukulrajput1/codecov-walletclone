@@ -17,7 +17,7 @@ export async function generateMetadata({ searchParams }) {
       openGraph: {
         title,
         description,
-        url: "https://perks.hireacoder.in",
+        url: "https://walletclone.in.net/event",
         images: [
           {
             url: imageUrl,
@@ -27,12 +27,12 @@ export async function generateMetadata({ searchParams }) {
           },
         ],
       },
-      twitter: {
-        card: "summary_large_image",
-        title,
-        description,
-        images: [imageUrl],
-      },
+      // twitter: {
+      //   card: "summary_large_image",
+      //   title,
+      //   description,
+      //   images: [imageUrl],
+      // },
     };
 }
 
