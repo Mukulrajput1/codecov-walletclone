@@ -29,7 +29,7 @@ jobs:
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
-          token: ${{ secrets.CODECOV_TOKEN }} # Optional for public repos
+          token:  "a2053ebc-e4e0-411c-8a78-a1f967fd6508" # Optional for public repos
           files: ./coverage/**/lcov.info
           flags: unittests
           name: codecov-umbrella
