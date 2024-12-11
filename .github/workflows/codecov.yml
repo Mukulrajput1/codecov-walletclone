@@ -30,6 +30,6 @@ jobs:
         uses: codecov/codecov-action@v3
         with:
           token:  "a2053ebc-e4e0-411c-8a78-a1f967fd6508" # Optional for public repos
-          files: ../coverage/**/lcov.info
+          files: ../coverage/lcov.info
           flags: unittests
           name: codecov-umbrella
